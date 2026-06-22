@@ -1,7 +1,19 @@
-{
+﻿{
   "rewrites": [
     {
-      "source": "/((?!.*\\..*).*)",
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/favicon.svg",
+      "destination": "/favicon.svg"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
