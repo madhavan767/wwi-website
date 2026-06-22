@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /admin/login
+Disallow: /vks/
+Disallow: /vks/dashboard/
+Disallow: /privacy-policy
+Disallow: /terms-of-service
+Disallow: /services/app-development
+Disallow: /services/web-services
+Disallow: /services/maintenance-support
+
+Sitemap: https://wwi.org.in/sitemap.xml
